@@ -42,5 +42,5 @@ func main() {
 
 	fmt.Println("Connected to database")
 
-	routes.StartServer().Run(":8080")
+	routes.StartServer().Run(":3000")
 }
